@@ -28,7 +28,7 @@ Similar to sound sensor, everytime someone post on social media with specific ha
 
 #### Hardware Wiring Diagram
 
-![Wiring Diagram](images/Sizzling Elzing.png)
+![Wiring Diagram](/images/Sizzling Elzing.png)
 Powered with 4 1.5V batteries, Led strip get data from pin D2
 Piezo as shock sensor conected to pin A0
 
