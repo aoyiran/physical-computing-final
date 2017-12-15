@@ -2,17 +2,17 @@
 
 *Name:*  Trash Data Blackhole 
 
-*Date:* <Dec.14 2017>
+*Date:* Dec.14 2017
 
-## Project:  < Trash Data Blackhole>
+## Project:   Trash Data Blackhole
 
-< This installation is a designed to response to trash data created about certain museum, gallery or exhibition.>
-< The blackhole will symbolize suck those trash data in and make it vainish with Led light effect.>
-< In order to make people realized the exsistence of trash data around them.>
+This installation is a designed to response to trash data created about certain museum, gallery or exhibition.
+The blackhole will symbolize suck those trash data in and make it vainish with Led light effect.
+In order to make people realized the exsistence of trash data around them.
 
 ### Detailed Project Description
 
-< This is a installation designed for set up in exhibition space in Museum/Gallery/Salon.
+  This is a installation designed for set up in exhibition space in Museum/Gallery/Salon.
   It could be hang on the gallery wall, response to noise create by the people in the physical space and social media data about the exhibition with LED light effect.
   The idea of this installation comes from my personal experience of visiting exhibitions and explorer my social network about that.
   I think museum or gallery should be a space for people enjoy art works, so it should be a quiet space. But during most of my exhibiton visit, other people's talk, cellphone ringtone, even children playing distracted me a lot. 
@@ -22,20 +22,20 @@
   
 ### Technical Description
 
-< The mechanism of Trash Data Blackhole is pretty simple. A piezo connected to photon redboard as a sound sensor, and a addressable led strip also connected to redboard. The led strip need power with 4x 1.5 AA batteries, also triggered with IFTTT notification.
+The mechanism of Trash Data Blackhole is pretty simple. A piezo connected to photon redboard as a sound sensor, and a addressable led strip also connected to redboard. The led strip need power with 4x 1.5 AA batteries, also triggered with IFTTT notification.
 When piezo get sound, it will send signal to led strip and light it up, then send a message to consule "Noisy!" 
-Similar to sound sensor, everytime someone post on social media with specific hashtag, IFTTT will sent notice text "oops" to photon redboard, the LED also lights up and fade, then send a message "Trash!"  >
+Similar to sound sensor, everytime someone post on social media with specific hashtag, IFTTT will sent notice text "oops" to photon redboard, the LED also lights up and fade, then send a message "Trash!" 
 
 #### Hardware Wiring Diagram
 
 ![Wiring Diagram](images/Sizzling Elzing.png)
-<Powered with 4 1.5V batteries, Led strip get data from pin D2>
-<Piezo as shock sensor conected to pin A0>
+Powered with 4 1.5V batteries, Led strip get data from pin D2
+Piezo as shock sensor conected to pin A0
 
 
 #### Code
 
-< 
+
 #include <SparkButton.h> // include library
 #include "Particle.h"
 #include "neopixel.h"
@@ -92,16 +92,16 @@ void colorWipe(uint32_t color, uint8_t wait) {
       strip.show();
       delay(10);
   }
-}>
+}
 
 
 ### Design / Form
 
-<In order to fit in the environment of art gallery, I try to keep its shape simple and clean. So the Trash Data Blackhole is designed in round shape infinate mirror.The shell's diameter is 34 cm, and height of 8 cm. The thickness meets the need of space at the back of shell to hold sensor, photon redboard, and wires, so I made a lid to cover that space.
+In order to fit in the environment of art gallery, I try to keep its shape simple and clean. So the Trash Data Blackhole is designed in round shape infinate mirror.The shell's diameter is 34 cm, and height of 8 cm. The thickness meets the need of space at the back of shell to hold sensor, photon redboard, and wires, so I made a lid to cover that space.
 To make the body of blackhole perfect, I try to use 3D printing to make it, both the lid and shell are sliced into 4 piece to meed the size of 3D printer Uiltimaker. After printed out, I polished all the surface and glue them together. Then paint it with black matte paint, just to make it looks mysterious.
 
 ### Evaluation / Reflection
 
-<  The coding and design of my project is simple, but I feel it would be useful for art exhibitons and would remind people with how many data they creates. The project somehow is not sophisticated，there is a lot of room to be improved, like deeper criticize about trash data, better coding build. 
+The coding and design of my project is simple, but I feel it would be useful for art exhibitons and would remind people with how many data they creates. The project somehow is not sophisticated，there is a lot of room to be improved, like deeper criticize about trash data, better coding build. 
 Working on this project, I learned so many thing about 3D printing including better slice setting, layout setting, opearation and preparation of 3D printer. 
-If I have more time, I will improve the craft of the body of installation, and maybe add more sensor to project.>
+If I have more time, I will improve the craft of the body of installation, and maybe add more sensor to project.
