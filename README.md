@@ -58,6 +58,7 @@ int THRESHOLD = 50;
 String lightSignal;
 
 // setup 
+
 void setup() {
   strip.begin();
   strip.show(); 
@@ -68,6 +69,7 @@ void setup() {
 }
 
 // read sensor's signal and response with led
+
 void loop() {
     val = analogRead(knockSensor);     
   if (val >= THRESHOLD) {
@@ -79,6 +81,7 @@ void loop() {
   }
 
   // read twitter's notification and response with led
+  
   int twitter(String args){
     colorWipe(strip.Color(255, 255, 255), 150); 
     colorWipe(strip.Color(0, 0, 0), 150); 
@@ -86,6 +89,7 @@ void loop() {
   }
       
 // set led style
+
 void colorWipe(uint32_t color, uint8_t wait) {
   for(uint16_t i=0; i<strip.numPixels(); i++) {
       strip.setPixelColor(i, color);
