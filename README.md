@@ -1,6 +1,6 @@
 # Final Project - Physical Computing and the Internet of Things
 
-*Name:*  <Trash Data Blackhole>  
+*Name:*  Trash Data Blackhole 
 
 *Date:* <Dec.14 2017>
 
