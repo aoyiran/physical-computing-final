@@ -106,6 +106,12 @@ void colorWipe(uint32_t color, uint8_t wait) {
 In order to fit in the environment of art gallery, I try to keep its shape simple and clean. So the Trash Data Blackhole is designed in round shape infinate mirror.The shell's diameter is 34 cm, and height of 8 cm. The thickness meets the need of space at the back of shell to hold sensor, photon redboard, and wires, so I made a lid to cover that space.
 To make the body of blackhole perfect, I try to use 3D printing to make it, both the lid and shell are sliced into 4 piece to meed the size of 3D printer Uiltimaker. After printed out, I polished all the surface and glue them together. Then paint it with black matte paint, just to make it looks mysterious.
 
+![Front](/images/front.jpg)
+![Back](/images/back.jpg)
+![Lid Design](/images/lid.JPG)
+![Body Design1](/images/body1.JPG)
+![Body Design2](/images/body2.JPG)
+
 ### Evaluation / Reflection
 
 The coding and design of my project is simple, but I feel it would be useful for art exhibitons and would remind people with how many data they creates. The project somehow is not sophisticated，there is a lot of room to be improved, like deeper criticize about trash data, better coding build. 
